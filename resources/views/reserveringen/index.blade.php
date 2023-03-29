@@ -32,7 +32,7 @@
         </div>
 
 
-        {{-- Zoekbalk --}}
+        {{-- Zoekbalk zodat je kan zoeken op de datum--}}
         <form action="{{ route('reserveringen.index') }}" method="GET">
             <div class="col-6">
                 <div class="input-group mb-3">
