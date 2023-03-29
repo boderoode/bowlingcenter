@@ -44,7 +44,7 @@
         </form>
     </div>
 
-
+    {{-- Tabel met reserveringen --}}
     <table class="table text-center">
         <thead>
             <tr>
