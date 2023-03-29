@@ -62,7 +62,7 @@
             {{-- Loop door de reserveringen --}}
             @foreach ($reserveringen as $reservering)
             <tr>
-                {{-- Volledige naam --}}
+                {{--zorgt ervoor dat de hele naam van de persoon wordt gehaald uit de persoons tabel --}}
                 <td>{{ $reservering->voornaam }} {{ $reservering->tussenvoegsel }} {{ $reservering->achternaam }}</td>
                 <td>{{ $reservering->datum }}</td>
                 <td>{{ $reservering->aantal_uren }}</td>
