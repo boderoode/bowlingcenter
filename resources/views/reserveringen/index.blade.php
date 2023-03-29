@@ -26,7 +26,7 @@
         <div class="col-6">
             {{-- Hele naam van de klant --}}
             <h1>
-                Reserveringen van {{ $reserveringen[0]->voornaam }} {{ $reserveringen[0]->tussenvoegsel }} {{
+                Alle reserveringen van {{ $reserveringen[0]->voornaam }} {{ $reserveringen[0]->tussenvoegsel }} {{
                 $reserveringen[0]->achternaam }}
             </h1>
         </div>
