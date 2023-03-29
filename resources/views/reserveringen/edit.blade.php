@@ -21,19 +21,15 @@
         {{ session('error') }}
     </div>
     @endif
-        
-            //make a input type field for baan nummer
-
-        //make a form with baan_nummer passed through the id of the reservering in the url and the baan_nummer as value
-        <form action="{{ route('reserveringen.update', $reservering->id) }}" method="POST">
-            @csrf
-            @method('PUT')
+      <form action="{{ route('reserveringen.update', $reservering->id) }}" method="POST">
+        @csrf
+          @method('PUT')
             <div class="form-group">
-                <label for="baan_nummer">Baan nummer</label>
-                <input type="text" class="form-control" id="baan_nummer" name="baan_nummer" value="{{ $reservering->baan_nummer }}">
+              <label for="baan_nummer">Baan nummer</label>
+              <input type="text" class="form-control" id="baan_nummer" name="baan_nummer" value="{{ $reservering->baan_nummer }}">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+          <button type="submit" class="btn btn-primary">Submit</button>
+     </form>
     </div>
   </body>
  </html>
