@@ -28,7 +28,7 @@
               <label for="baan_nummer">Baan nummer</label>
               <input type="text" class="form-control" id="baan_nummer" name="baan_nummer" value="{{ $reservering->baan_nummer }}">
             </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary">Sla op!</button>
      </form>
     </div>
   </body>
