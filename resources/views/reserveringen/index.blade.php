@@ -71,7 +71,7 @@
                 <td>{{ $reservering->aantal_volwassenen }}</td>
                 <td>{{ $reservering->aantal_kinderen }}</td>
                 <td>{{ $reservering->baan_nummer }}</td>
-                //make a edit button for me that gives the id of the person that made the reservation so that they can change the baan_nummer
+                {{-- Edit knop --}}
                 <td><a href="{{ route('reserveringen.edit', $reservering->id) }}" class="btn btn-primary">Edit</a></td>
 
 
